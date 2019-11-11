@@ -1,0 +1,153 @@
+nav{
+  width:100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  }
+  nav>ul{
+    text-align: center;
+  }
+  ul>li{
+    display: inline-block;
+    
+  }
+  nav>ul>li>a{
+    padding: 15px;
+    margin-right: o;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: yellow;
+  }
+  nav>ul>li>a:hover{
+    box-shadow: 0 0 10px rgba(75, 4, 241, 0.1),inset 0 0 1px rgba(33, 241, 5, 0.6);
+    background: rgba(240, 97, 40, 0.3);
+    color: whitesmoke;
+  }
+body{
+  font-size: 28px;
+  text-align: center;
+  background-image:url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: inherit;
+  color:rgb(5, 5, 5);
+}
+#players{
+  display: flex;
+  justify-content: space-evenly
+}
+img{
+  border-radius: 70px;
+}
+ol>li{
+  display: inline-block;
+  display: flex;
+}
+#gol{
+  display: flex;
+  justify-content: space-evenly
+}
+.keep{
+  border-radius: 100px;
+  justify-content: space-between;
+  padding: 70px;
+}
+#league{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+#league>p>*.kp{
+  border-radius: 40px;
+}
+#cup{
+  display: flex;
+  justify-content: space-between;
+}
+.hold{
+  border-radius: 50px;
+}
+#eng{
+  background-color: dimgray;
+  border-radius: 80px;
+}
+#eng:hover{
+  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(1, 2, 46, 0.6);
+  background: rgba(240, 97, 40, 0.3);
+  color: rgba(25, 2, 61, 0.8);
+}
+#bundes{
+  background-color: dimgrey;
+  border-radius: 80px;
+}
+#bundes:hover{
+  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(8, 0, 37, 0.6);
+  background: rgba(240, 97, 40, 0.3);
+  color: rgba(15, 2, 51, 0.8);
+}
+#liga{
+  background-color: dimgrey;
+  border-radius: 80px;
+}
+#liga:hover{
+  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(168, 76, 59, 0.3);
+  color: rgba(12, 2, 58, 0.8);
+}
+*.kp{
+  border-radius: 50px;
+}
+#france,#germany{
+  border-radius:180px;
+}
+h4{
+text-decoration-color: rgb(8, 8, 8);
+text-decoration-line: underline;
+color: black;
+}
+@media screen and (max-width:1024){
+  .top{
+    overflow: auto;
+  }
+}
+@media screen and (max-width:480px){
+  .nav{
+    height: auto;
+    width: 100%;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+#players,#gol,#league,#cup{
+  display: flex;
+  flex-direction: column;
+}
+#france>li>img,#germany>li>img,#gol>p>img{
+  width: 70%;
+}
+.top>img{
+  width: 70%;
+}
+#eng,#liga,#bundes{
+  width: 80%;
+}
+h1{
+  padding-top: 40%
+}
+}
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+#footer{
+  margin-left: 0%;
+  width: 100%;
+  padding-top:0%;
+  background-color: chocolate;
+  border-radius: 30px;
+  }
