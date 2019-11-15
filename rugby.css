@@ -45,40 +45,40 @@ border-radius: 70px;
 }
 #men>p{
   background-color: rgb(5, 5, 5);
-  border-radius: 70px;
+  border-radius: 50px;
 }
 #ment>p{
   background-color: rgb(5, 5, 5);
-  border-radius: 70px;
+  border-radius: 50px;
 }
 #women>p{
   background-color: rgb(5, 5, 5);
-  border-radius: 70px;
+  border-radius: 50px;
 }
 #woment>p{
   background-color: rgb(3, 3, 3);
-  border-radius: 70px;
+  border-radius: 50px;
 }
 #woment>p:hover{
-  border-radius: 70px;
+  border-radius: 50px;
   box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
   background: rgba(117, 117, 119, 0.3);
   color: rgba(17, 7, 150, 0.8)
 }
 #men>p:hover{
-  border-radius: 70px;
+  border-radius: 50px;
   box-shadow: 0 0 10px rgba(44, 247, 4, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
   background: rgba(84, 83, 85, 0.3);
   color: rgba(16, 3, 90, 0.8)
 }
 #ment>p:hover{
-  border-radius: 70px;
+  border-radius: 50px;
   box-shadow: 0 0 10px rgba(46, 248, 6, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
   background: rgba(91, 91, 92, 0.3);
   color: rgba(69, 37, 248, 0.8)
 }
 #women>p:hover{
-  border-radius: 70px;
+  border-radius: 50px;
   box-shadow: 0 0 10px rgba(42, 241, 2, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
   background: rgba(74, 74, 75, 0.3);
   color: rgba(59, 26, 247, 0.8)
