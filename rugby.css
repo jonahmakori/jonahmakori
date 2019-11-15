@@ -27,13 +27,13 @@ nav{
   }
   h1{
       padding-top: 7%;
-      color: rgb(43, 46, 2);
+      color: rgb(7, 7, 7);
   }
 body{
   font-size: 30px;
   text-align: center;
   background-image:url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-  color: rgb(2, 1, 5); 
+  color: rgb(8, 8, 8);
 }
 img{
 border-radius: 70px;
@@ -41,54 +41,87 @@ border-radius: 70px;
 #men,#ment,#women,#woment{
   display: flex;
   justify-content: space-evenly;
+  color: whitesmoke;
 }
 #men>p{
-  background-color: chocolate;
+  background-color: rgb(5, 5, 5);
   border-radius: 70px;
 }
 #ment>p{
-  background-color: chocolate;
+  background-color: rgb(5, 5, 5);
   border-radius: 70px;
 }
 #women>p{
-  background-color: chocolate;
+  background-color: rgb(5, 5, 5);
   border-radius: 70px;
 }
 #woment>p{
-  background-color: chocolate;
+  background-color: rgb(3, 3, 3);
   border-radius: 70px;
 }
 #woment>p:hover{
   border-radius: 70px;
-  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
-  background: rgba(168, 76, 59, 0.3);
-  color: rgba(12, 2, 58, 0.8)
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
 }
 #men>p:hover{
   border-radius: 70px;
-  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
-  background: rgba(168, 76, 59, 0.3);
-  color: rgba(12, 2, 58, 0.8)
+  box-shadow: 0 0 10px rgba(44, 247, 4, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(84, 83, 85, 0.3);
+  color: rgba(16, 3, 90, 0.8)
 }
 #ment>p:hover{
   border-radius: 70px;
-  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
-  background: rgba(168, 76, 59, 0.3);
-  color: rgba(12, 2, 58, 0.8)
+  box-shadow: 0 0 10px rgba(46, 248, 6, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(91, 91, 92, 0.3);
+  color: rgba(69, 37, 248, 0.8)
 }
 #women>p:hover{
   border-radius: 70px;
-  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
-  background: rgba(168, 76, 59, 0.3);
-  color: rgba(12, 2, 58, 0.8)
+  box-shadow: 0 0 10px rgba(42, 241, 2, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(74, 74, 75, 0.3);
+  color: rgba(59, 26, 247, 0.8)
 }
-#footer{
-  margin-left: 0%;
+footer{
+  justify-content: center;
   width: 100%;
-  padding-top:0%;
-  background-color: chocolate;
-  border-radius: 30px;
+  background-color: rgb(8, 8, 8);
+color: rgb(233, 218, 10);
   }
+  .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    justify-content: space-around;
+      }
+  .fa:hover{
+    opacity: 0.9;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+      background: #3B5998;
+      color: white;
+    }
+  .fa-pinterest {
+      background: #3B5998;
+      color: white;
+    }
+    #fa{
+      justify-content: space-evenly;
+    }
+     
+  
 @media screen and (max-width:480px){
   .nav{
     height: auto;

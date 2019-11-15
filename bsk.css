@@ -35,30 +35,72 @@ nav{
  #wmn,#mn,#lejo{
    display: flex;
    justify-content: space-evenly;
+   color: whitesmoke
  }
-#mn>p{
-  background-color: chocolate;
+ #mn>p ,#wmn>p ,#lejo>p{
+  background-color: rgb(3, 3, 3);
   border-radius: 70px;
-}
-#wmn>p{
-background-color: chocolate;
-border-radius: 70px;
-}
-#lejo>p{
-  background-color: chocolate;
+ }
+#mn>p:hover{
   border-radius: 70px;
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
+}
+#wmn>p:hover{
+  border-radius: 70px;
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
+}
+#lejo>p:hover{
+  border-radius: 70px;
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
 }
 img{
   border-radius: 70px;
 }
-#footer{
-  margin-left: 0%;
+footer{
+  justify-content: center;
   width: 100%;
-  padding-top:0%;
-  background-color: chocolate;
-  border-radius: 30px;
+  background-color: black;
+color: rgb(226, 230, 19);
   }
-
+  .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    justify-content: space-around;
+      }
+  .fa:hover{
+    opacity: 0.9;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+      background: #3B5998;
+      color: white;
+    }
+  .fa-pinterest {
+      background: #3B5998;
+      color: white;
+    }
+    #fa{
+      justify-content: space-evenly;
+    }
+     
+  
 @media screen and (max-width:480px){
   .nav{
     height: auto;

@@ -29,32 +29,52 @@ body{
   text-align: center;
   background-image:url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: inherit;
-  color:rgb(5, 5, 5);
+  color: rgb(8, 8, 8);
+}
+h1{
+  color: #000;
+  padding-top: 100px;
+}
+h2>li{
+  color: #000;
 }
 #players{
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+  color: whitesmoke;
+}
+.top>p:hover{
+  border-radius: 70px;
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
+}
+.top>p,#gol>p{
+  background-color: rgb(3, 3, 3);
+  border-radius: 30px;
 }
 img{
-  border-radius: 70px;
+  border-radius: 50px;
 }
 ol>li{
   display: inline-block;
   display: flex;
 }
+#gol>p:hover{
+  border-radius: 70px;
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
+}
 #gol{
   display: flex;
-  justify-content: space-evenly
-}
-.keep{
-  border-radius: 100px;
-  justify-content: space-between;
-  padding: 70px;
+  justify-content: space-evenly;
+  color: whitesmoke
 }
 #league{
   display: flex;
   justify-content: space-evenly;
-
+  color: whitesmoke;
 }
 #league>p>*.kp{
   border-radius: 40px;
@@ -62,42 +82,45 @@ ol>li{
 #cup{
   display: flex;
   justify-content: space-between;
+  color: whitesmoke;
 }
 .hold{
   border-radius: 50px;
 }
 #eng{
-  background-color: dimgray;
-  border-radius: 80px;
+  background-color: rgb(3, 2, 2);
+  border-radius: 50px;
+  color: whitesmoke;
 }
 #eng:hover{
-  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(1, 2, 46, 0.6);
-  background: rgba(240, 97, 40, 0.3);
-  color: rgba(25, 2, 61, 0.8);
+  border-radius: 70px;
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
 }
 #bundes{
-  background-color: dimgrey;
-  border-radius: 80px;
-}
-#bundes:hover{
-  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(8, 0, 37, 0.6);
-  background: rgba(240, 97, 40, 0.3);
-  color: rgba(15, 2, 51, 0.8);
-}
-#liga{
-  background-color: dimgrey;
-  border-radius: 80px;
-}
-#liga:hover{
-  box-shadow: 0 0 10px rgba(37, 206, 3, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
-  background: rgba(168, 76, 59, 0.3);
-  color: rgba(12, 2, 58, 0.8);
-}
-*.kp{
+  background-color: rgb(7, 7, 7);
   border-radius: 50px;
 }
+#bundes:hover{
+  border-radius: 70px;
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
+}
+#liga{
+  background-color: rgb(5, 5, 5);
+  border-radius: 50px;
+}
+#liga:hover{
+  border-radius: 70px;
+  box-shadow: 0 0 10px rgba(13, 253, 13, 0.1),inset 0 0 1px rgba(8, 1, 37, 0.6);
+  background: rgba(117, 117, 119, 0.3);
+  color: rgba(17, 7, 150, 0.8)
+}
 #france,#germany{
-  border-radius:180px;
+  border-radius:70px;
+  background-color: rgb(2, 2, 2);
 }
 h4{
 text-decoration-color: rgb(8, 8, 8);
@@ -133,7 +156,8 @@ color: black;
   width: 80%;
 }
 h1{
-  padding-top: 40%
+  padding-top: 40%;
+  color: black;
 }
 }
 @media screen and (max-width: 1060px) {
@@ -144,10 +168,42 @@ h1{
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
 }
-#footer{
-  margin-left: 0%;
+footer{
+  justify-content: center;
   width: 100%;
-  padding-top:0%;
-  background-color: chocolate;
-  border-radius: 30px;
+  background-color: black;
+color: rgb(226, 230, 19);
   }
+  .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    justify-content: space-around;
+      }
+  .fa:hover{
+    opacity: 0.9;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+      background: #3B5998;
+      color: white;
+    }
+  .fa-pinterest {
+      background: #3B5998;
+      color: white;
+    }
+    #fa{
+      justify-content: space-evenly;
+    }
+     
+  

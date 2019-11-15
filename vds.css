@@ -36,13 +36,45 @@ nav{
    display: flex;
    justify-content: space-evenly;
  }
- #footer{
-  margin-left: 0%;
-  background-color: chocolate;
-  border-radius: 30px;
+ footer{
+  justify-content: center;
   width: 100%;
-  padding-top:0%;
+  background-color: black;
+color: rgb(226, 230, 19);
   }
+  .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    justify-content: space-around;
+      }
+  .fa:hover{
+    opacity: 0.9;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+      background: #3B5998;
+      color: white;
+    }
+  .fa-pinterest {
+      background: #3B5998;
+      color: white;
+    }
+    #fa{
+      justify-content: space-evenly;
+    }
+     
+  
 @media screen and (max-width:1024px){
   .nav{
     height: auto;
